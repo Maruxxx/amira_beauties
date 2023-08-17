@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #FFF1E9;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f8ce9a;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ebb069;
+  }
+
+
+@font-face {
+    font-family: TTBold;
+    src: url("fonts/tt-bold.ttf") format("opentype");
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url("fonts/montserrat-bold.ttf") format("opentype");
+}
+@font-face {
+    font-family: MontserratMedium;
+    src: url("fonts/montserrat-medium.ttf") format("opentype");
+}
+@font-face {
+    font-family: MontserratRegular;
+    src: url("fonts/montserrat-regular.ttf") format("opentype");
+}
+@font-face {
+    font-family: TTRegular;
+    src: url("fonts/tt-regular.ttf") format("opentype");
+}
