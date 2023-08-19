@@ -1,16 +1,16 @@
 import React from 'react'
 
-function Contact() {
+function Contact({color}) {
   return (
     <div className='bg-darkGrey flex flex-col justify-evenly items-center gap-12 mt-6 py-12 md:flex-row'>
       <div className='flex flex-col justify-center items-center gap-6'>
 
-        <img src={require('../assets/logo-white.png')}></img>
-        <ul className='flex justify-center items-center flex-wrap'>
+        <img src={require('../assets/logo-white.png')} alt='' width={200}></img>
+        <ul className='flex justify-center items-center flex-wrap mt-4 sm:mt-0'>
           <li className='flex flex-col justify-center items-start gap-4 text-white font-montserratRegular text-sm'>
-            <a><span className='text-darkGold mx-2'>●</span> Proffessionel Certification</a>
-            <a><span className='text-darkGold mx-2'>●</span> Terms & Conditions</a>
-            <a><span className='text-darkGold mx-2'>●</span> About Us</a>
+            <div><span className='text-darkGold mx-2'>●</span> Proffessionel Certification</div>
+            <div><span className='text-darkGold mx-2'>●</span> Terms & Conditions</div>
+            <div><span className='text-darkGold mx-2'>●</span> About Us</div>
           </li>
         </ul>
       

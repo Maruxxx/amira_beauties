@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 html, body {
+  -webkit-tap-highlight-color: transparent;
   overflow-x: hidden;
 }
 
+
+::selection {
+  background: transparent;
+}
 
 html {
     scroll-behavior: smooth;
